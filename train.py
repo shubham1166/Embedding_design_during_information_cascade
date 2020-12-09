@@ -197,7 +197,7 @@ def average_precison(nodes,c,k, embd):
     for j in range(k):
         if(np.array(r_hat)[j,0] in s):
             m+=1;
-            prcsn=prcsn+precision(np.array(r_hat)[0:j,0],c[0:,0])
+            prcsn=prcsn+precision(np.array(r_hat)[0:j,0],c[0:math.ceil(0.1*c.shape[0])+k,0])
     return (prcsn/m)
 
 def mean_average_precision(nodes,C, embd):
