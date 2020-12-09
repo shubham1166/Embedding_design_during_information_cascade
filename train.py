@@ -11,6 +11,7 @@ import argparse
 from network import AutoEncoder
 from network import Graph_embedding
 from graph import Graph
+import math
 
 parser = argparse.ArgumentParser(description='Graph Embeddings')
 
