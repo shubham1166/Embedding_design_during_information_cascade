@@ -35,6 +35,9 @@ parser.add_argument('--gamma', type=float, default = 0.002,
 parser.add_argument('--batch_size', type=int, default = 10,  
                     help='Batch size')
 
+parser.add_argument('--path_to_save', type=str, default = '/',  
+                    help='Path to save the Embeddings')
+
 parser.add_argument('--n_epoch', type=int, default = 100000,  
                     help='Num of epochs')
 
