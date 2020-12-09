@@ -1,5 +1,5 @@
 # Embedding design during information cascade
-This is a course project(CS 768) by Shubham Sharma(18i190002) and Pintu Kumar(94193002) under the guidance of Prof. Abir De (IIT Bombay).
+This is a course project(CS 768) by Shubham Sharma(18i190002) and Pintu Kumar(194193002) under the guidance of Prof. Abir De (IIT Bombay).
 
 The code has an experiment folder that has ipynb notebooks for training. The code can be used directly from train.py. All theoritical explainations are there in the report itself. The code has the following parameters, with their default values as 
 
